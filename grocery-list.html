@@ -1,0 +1,102 @@
+<!-- requirements!
+
+Incorporate the major HTML semantic tags.
+Each category of grocery should be in some type of "section".
+Sections should have background colors.
+Section headers should have background colors.
+The main header text needs to be a different color.
+Use three types of headings.
+Include two types of lists.
+Use the box model to add borders and spacing to each section.
+Add two photos with padding so it is nicely spaced away from the text element.
+CSS needs to be incorporated using an external CSS file, internal in the header, and inline. You choose which CSS goes where. -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="/styles.css" />
+		<title>Grocery List</title>
+		<style>
+			div {
+				display: inline-block;
+				width: 30%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 style="text-align: center">My Very Organized Grocery List</h1>
+		<h2>Pantry Items</h2>
+		<div class="flex-container">
+			<div class="box">
+				<h3>Canned</h3>
+				<ul>
+					<li>Black Beans</li>
+					<li>Corn</li>
+					<li>Sausages</li>
+					<li>Red Beans</li>
+				</ul>
+			</div>
+			<div class="box">
+				<h3>Dry Goods</h3>
+				<ul>
+					<li>Rice</li>
+					<li>Lentils</li>
+					<li>Pancake Mix</li>
+					<li>Oats</li>
+				</ul>
+			</div>
+
+			<img
+				src="/imgs/john-cameron-tm9Rt6BTMys-unsplash.jpg"
+				alt="Photo of cans stacked on top of eachother"
+			/>
+		</div>
+
+		<h2>Freezer Items</h2>
+		<div class="flex-container">
+			<div class="box">
+				<h3>Veggies</h3>
+				<ol>
+					<li>Broccoli</li>
+					<li>Carrots</li>
+					<li>Cauliflower</li>
+					<li>Bell Peppers</li>
+				</ol>
+			</div>
+			<div class="box">
+				<h3>Snacks</h3>
+				<ol>
+					<li>Chicken Nuggets</li>
+					<li>Hot Pockets</li>
+					<li>Fries</li>
+					<li>Hashbrowns</li>
+				</ol>
+			</div>
+			<img
+				src="/imgs/scott-warman-NpNvI4ilT4A-unsplash.jpg"
+				alt="Photo of vegetables in produce section"
+			/>
+		</div>
+	</body>
+</html>
+
+<!-- psuedo
+
+
+
+
+
+
+
+
+  - box model to add borders and spacing
+  - photos must have padding and spaced nicely
+  - css must be incorporated externally, and internally in the header and inline  
+  
+  code -->
