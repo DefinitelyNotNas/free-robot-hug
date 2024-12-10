@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: green;
+}
+
+
+h2 {
+    background-color: wheat;
+    width: 66%;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.box {
+    background-color: beige;
+    outline-color: black;
+    padding-left: 1%;
+}
+
+ul, ol {
+    padding-left: 11%;
+}
+
+img {
+
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+h2, img {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
